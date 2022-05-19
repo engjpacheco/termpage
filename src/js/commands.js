@@ -1,4 +1,5 @@
 // Search something on google, if no arguments are provided => www.google.com
+
 g = google;
 function google(args) {
     if (args != "") {
@@ -27,7 +28,7 @@ function github(args) {
         search = args.replace(" ", "+")
         window.open("https://github.com/search?q=" + search);
     } else {
-        window.open("https://github.com/");
+        window.open("https://github.com/engjpacheco");
     }
 }
 
@@ -38,7 +39,7 @@ function gitlab(args) {
         search = args.replace(" ", "+")
         window.open("https://gitlab.com/search?search=" + search);
     } else {
-        window.open("https://gitlab.com/");
+        window.open("https://gitlab.com/jpachecom4");
     }
 }
 
@@ -64,6 +65,12 @@ function lingvo(cmd) {
     }
 }
 
+// Telegram web
+tg = telegram
+function telegram(cmd) {
+    window.open("https://web.telegram.org/z/");
+}
+
 // Display time
 time = clock;
 function clock(args) {
@@ -79,12 +86,7 @@ function clear(args) {
 
 help = hlp;
 function hlp(args) {
-    var today = new Date();
-    block_log('[*] search engines: [g:google] [yt:youtube] [gh:github] [gl:gitlab] [li:translate]');
-    block_log('[*] clear/cls: clear the screen.');
-    block_log('[*] time/clock: display the time.');
+    block_log('--> search engines: [g:google] [yt:youtube] [gh:github] [gl:gitlab] [li:translate]');
+    block_log('--> clear/cls: clear the screen');
+    block_log('-->  time/clock: display the time.');
 }
-
-
-
-

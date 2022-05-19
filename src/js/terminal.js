@@ -24,8 +24,8 @@ function submit_command() {
     if (!(event.keyCode === 13)) return;
     var input = document.getElementById("input_source").value;
     document.getElementById("input_source").value = "";
-
     new_block();
+    
 
     command = input.split(" ")[0];
     args = input.replace(command, "")
@@ -35,7 +35,8 @@ function submit_command() {
         window[command](args);
         lastCommand = command + args;
     } else if (command != "") {
-        block_log("command not found : " + command);
+          window.open("https://www.google.com/search?q=" + input);
+//        block_log("command not found : " + command);
     }
 }
 
