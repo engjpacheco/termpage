@@ -93,6 +93,11 @@ input {
 	-webkit-transform: rotate(360deg);
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .rotate {
   animation: rotation 8s infinite linear;
 }
