@@ -96,7 +96,6 @@ function clear(args) {
 
 ls = help;
 function help(args) {
-    block_log('\f796');
     block_log("[*] clear...................clear the screen..");
     block_log("[*] time....................print the time");
     block_log("[*] g how to be suckless....search in google 'how to be suckless'.");
