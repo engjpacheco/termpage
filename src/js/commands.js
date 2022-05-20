@@ -96,11 +96,11 @@ function clear(args) {
 
 ls = help;
 function help(args) {
-    //block_log(\f121);
+    block_log("\f121");
     block_log("[*] clear...................clear the screen..");
     block_log("[*] time....................print the time");
     block_log("[*] g how to be suckless....search in google 'how to be suckless'.");
-    block_log("[*] gh dwm..................search in githunb 'dwm'");
+    block_log("[*] gh dwm..................search in github 'dwm'");
     block_log("[*] gl dmwnu................search i gitlab 'dmenu'.");
     block_log("[*] li cat..................translate 'cat' to spanish");
     block_log("[*] tg......................open telegram in a new tab.");
