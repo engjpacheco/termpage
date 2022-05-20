@@ -94,6 +94,19 @@ function clear(args) {
     document.getElementById('wrapper').innerHTML = "";
 }
 
+ls = ls;
+function ls(args) {
+    block_log("[*] clear-------------------clear the screen..");
+    block_log("[*] time--------------------print the time");
+    block_log("[*] g how to be suckless----search in google 'how to be suckless.'");
+    block_log("[*] gh dwm------------------search in githunb 'dwm'");
+    block_log("[*] gl dmwnu----------------search i gitlab 'dmenu'");
+    block_log("[*] li cat------------------translate 'cat' to spanish");
+    block_log("[*] tg----------------------open telegram in a new tab.");
+    block_log("[*] pv----------------------open partviewer.");
+    block_log("[*] l2l---------------------open L2L in a new tab.");
+}
+
 help = hlp;
 function hlp(args) {
     block_log('--> search engines: [g:google] [yt:youtube] [gh:github] [gl:gitlab]');
