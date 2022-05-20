@@ -97,8 +97,12 @@ function clear(args) {
 help = hlp;
 function hlp(args) {
     block_log('--> search engines: [g:google] [yt:youtube] [gh:github] [gl:gitlab]');
+    block_log('-------------------------------------------------------------------');
     block_log('--> misc: [li:translate] [tg:telegram]');
+    block_log('-------------------------------------------------------------------');
     block_log('--> work: [pv:Partview] [l2l:Leading2lean]');
+    block_log('-------------------------------------------------------------------');
     block_log('--> clear/cls: clear the screen');
+    block_log('-------------------------------------------------------------------');
     block_log('--> time/clock: display the time.');
 }
