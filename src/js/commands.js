@@ -71,6 +71,16 @@ function telegram(cmd) {
     window.open("https://web.telegram.org/z/");
 }
 
+pv = partview
+function partview(cmd) {
+    window.open("http://erp/cgi-bit/rpgle/cgipartvw3.pgm");
+}
+
+l2l = leading2lean
+function leading2(cmd) {
+    window.open("https://autoliv-mx.leading2lean.com/home/");
+}
+
 // Display time
 time = clock;
 function clock(args) {
