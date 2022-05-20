@@ -1,6 +1,6 @@
 // Terminal config
 config = {
-    shellPrompt: "└─▶"
+    shellPrompt: "└─▶\n"
 }
 
 document.getElementById("input_title").innerText = config.shellPrompt;
