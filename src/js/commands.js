@@ -77,7 +77,7 @@ function partview(cmd) {
 }
 
 l2l = leading2lean
-function leading2(cmd) {
+function leading2lean(cmd) {
     window.open("https://autoliv-mx.leading2lean.com/home/");
 }
 
