@@ -36,8 +36,8 @@ function submit_command() {
         lastCommand = command + args;
     } else if (command != "") {
         block_log(config.shellPrompt + command + " " + args);
-        window.open("https://www.google.com/search?q=" + input);
-//        block_log("command not found : " + command);
+        //window.open("https://www.google.com/search?q=" + input);
+        block_log("command not found : " + command);
     }
 }
 
