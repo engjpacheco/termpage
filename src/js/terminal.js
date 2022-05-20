@@ -1,6 +1,6 @@
 // Terminal config
 config = {
-    shellPrompt: "jp@web "
+    shellPrompt: "🐧"
 }
 
 document.getElementById("input_title").innerText = config.shellPrompt;
